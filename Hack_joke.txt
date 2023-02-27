@@ -9,3 +9,27 @@ DELAY 500
 STRING cmatrix
 ENTER
 F11
+
+
+
+
+
+###########################################################################
+# Only use one of these scripts. They are just two variations I have made #
+#       This one works if the user does not have cmatrix installed        #
+###########################################################################
+
+DELAY 300
+CTRL ALT t
+DELAY 300
+STRING espeak
+SPACE
+STRING "I have completly hacked your shit"
+ENTER
+DELAY 500
+STRING cd /
+ENTER
+DELAY 100
+STRING ls -laR
+ENTER
+F11
