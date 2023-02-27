@@ -1,0 +1,11 @@
+DELAY 300
+CTRL ALT t
+DELAY 300
+STRING espeak
+SPACE
+STRING "I have completly hacked your shit"
+ENTER
+DELAY 500
+STRING cmatrix
+ENTER
+F11
